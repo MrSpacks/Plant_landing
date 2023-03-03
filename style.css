@@ -1,0 +1,107 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset border for all elements */
+  * {
+    border: 0;
+  }
+  
+  /* Reset list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Reset text decoration for certain elements */
+  a, button {
+    text-decoration: none;
+  }
+  
+  /* Reset default text color */
+  body {
+    color: initial;
+  }
+  
+  /* Reset default font */
+  body {
+    font-family: initial;
+  }
+  
+  /* Reset default button behavior */
+  button {
+    cursor: pointer;
+  }
+/*----Fonts---*/
+@font-face {
+  font-family: "Raleway_bold";  
+  src: url("/Fonts/raleway.bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Raleway_extrabold";
+  src: url("/Fonts/raleway.extrabold.ttf");
+  font-style: normal; 
+  font-weight: normal;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Raleway_bold';
+}
+/*-----header-----*/
+.header {
+    display: flex;
+}
+.header_conteiner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.header_img{
+    position: absolute;
+    width: 37%;
+    height: auto;
+}
+.header_nav {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.header_nav_items {
+    display: flex;  
+}
+.header_content{
+  margin-left: 40%;
+}
+.header_item {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 45px;
+}
+.header_item:hover {
+  color: #418A1C;
+}
+.header_button {
+  width: 153px;
+  height: 63px;
+  background: #000;
+  color: white;
+  box-shadow: 8px 8px #418A1C;
+}
+.header_title {
+  font-size: 80px;
+  font-family: "Raleway_extrabold";
+  color: #418A1C;
+}
+.header_subtitle {
+  font-size: 70px;
+  font-family: "Raleway_extrabold";
+}
+.header_text {
+  font-size: 18px;
+  margin-left: 100px;
+}
